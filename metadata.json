@@ -1,0 +1,14 @@
+{
+  "name": "beergeek-test_stack",
+  "version": "0.1.0",
+  "author": "beergeek",
+  "summary": "Module to perform basic testing of Puppet Enterprise",
+  "license": "Apache 2.0",
+  "source": "https://github.com/beergeek/test_stack.git",
+  "project_page": "https://github.com/beergeek/test_stack",
+  "issues_url": "https://github.com/beergeek/test_stack/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
