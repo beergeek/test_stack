@@ -1,0 +1,11 @@
+<%= @std_lookup %>
+
+<% @array_lookup.each do |x| -%>
+<%= x %>
+<% end -%>
+
+<% @hash_lookup.each do |k,v| -%>
+<%= k %> = <%= v %>
+<% end -%>
+
+<%= @std_lookup_default %>

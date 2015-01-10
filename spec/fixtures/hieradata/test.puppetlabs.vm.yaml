@@ -1,0 +1,12 @@
+---
+
+test_stack::hiera_lookups::std_lookup: 'std_lookup'
+test_stack::hiera_lookups::array_lookup:
+  - 'a0'
+  - 'a1'
+test_stack::hiera_lookups::hash_lookup:
+  'h0': 'h0_value'
+  'h1': 'h1_value'
+test_stack::hiera_lookups::include_lookup:
+  - 'test_stack::test0'
+  - 'test_stack::test1'

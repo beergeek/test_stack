@@ -1,0 +1,11 @@
+---
+
+test_stack::hiera_lookups::array_lookup:
+  - 'a3'
+  - 'a4'
+test_stack::hiera_lookups::hash_lookup:
+  'h0': 'override'
+  'h2': 'h2_value'
+test_stack::hiera_lookups::include_lookup:
+  - 'test_stack::test2'
+  - 'test_stack::test3'
