@@ -1,7 +1,7 @@
 class test_stack::r10k {
 
   class { '::r10k':
-    version     => '1.4.0',
+    version     => '1.4.1',
     sources     => {
       puppet    => {
         remote  => 'https://github.com/puppetlabs/prosvcs-test_puppet',

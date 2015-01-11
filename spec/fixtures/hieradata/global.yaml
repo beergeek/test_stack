@@ -1,5 +1,6 @@
 ---
 
+test_stack::hiera_lookups::std_lookup: 'global'
 test_stack::hiera_lookups::array_lookup:
   - 'a3'
   - 'a4'

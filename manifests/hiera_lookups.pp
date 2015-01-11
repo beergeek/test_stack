@@ -10,9 +10,10 @@ class test_stack::hiera_lookups {
   $std_lookup_default = hiera('test_stack::hiera_lookups::std_lookup_default','test')
 
   file { '/tmp/test':
-    ensure => file,
-    owner  => 'root',
-    group  => 'root',
-    mode   => '0644',
+    ensure  => file,
+    owner   => 'root',
+    group   => 'root',
+    mode    => '0644',
+    content => template('test_stack/test.erb'),
   }
 }
